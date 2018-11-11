@@ -6,3 +6,6 @@ a:hover {
     color: red;
     text-decoration: none;
 }
+td {
+    text-align: center
+}
