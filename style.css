@@ -7,5 +7,8 @@ a:hover {
     text-decoration: none;
 }
 td {
-    text-align: center
+    text-align: center;
+}
+table {
+    background-color: #E6E6E6;
 }
