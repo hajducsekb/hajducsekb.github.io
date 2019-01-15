@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="black">
+
+<p id="myP2" color="black" onclick="demoVisibility()">A mohácsi csata 1526-ban volt.</p>
+
+
+
+<script>
+
+function demoVisibility() {
+  document.getElementById("myP2").style.color = "white";
+  setTimeout(function(){
+  document.getElementById("myP2").style.color = "black";
+  }, 5000);
+}
+</script>
+
+</body>
+</html>
+
