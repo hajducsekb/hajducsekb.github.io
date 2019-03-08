@@ -24,6 +24,7 @@ button{
     border: none;
     background-color: none;
     text-decoration: none;
+    outline: none;
 }
 button{
     color: red;
@@ -32,4 +33,5 @@ button{
     border: none;
     background-color: none;
     text-decoration: none;
+    outline: none;
 }
