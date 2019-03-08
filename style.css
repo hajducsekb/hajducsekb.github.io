@@ -22,10 +22,14 @@ button{
     font-size: 3vw;
     cursor: pointer;
     border: none;
+    background-color: none;
+    text-decoration: none;
 }
 button{
     color: red;
     font-size: 3vw;
     cursor: pointer;
     border: none;
+    background-color: none;
+    text-decoration: none;
 }
