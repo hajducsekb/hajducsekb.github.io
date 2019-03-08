@@ -20,7 +20,26 @@ Jelenlegi funkciók:<br />
 <li>értesítések</li>
 <li>grafikonok</li>
  <center>
- <a href="itms-services://?action=download-manifest&amp;url=https://hajducsekb.github.io/app.plist">e-Szivacs 2 letöltése</a>
+ <a href="itms-services://?action=download-manifest&amp;url=https://hajducsekb.github.io/app.plist">e-Szivacs 2 letöltése</a></br>
+ <a href="https://github.com/boapps/e-Szivacs-2">Forráskód</a>
+ <button onclick="showScreenshots()">Képernyőfotók mutatása/elrejtése</button>
+ <table id=screens>
+  <tr width="100%">
+   <td><img src="IMG_0360.JPG" width="25%"/></td>
+   <td><img src="IMG_0360.JPG" width="25%"/></td>
+   <td><img src="IMG_0360.JPG" width="25%"/></td>
+  </tr>
+ </table>
+ <script>
+function showScreenshots() {
+  var x = document.getElementById("screens");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
  </center>
 </body>
 </html>
