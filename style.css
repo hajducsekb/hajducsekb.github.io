@@ -17,13 +17,13 @@ td {
 #screens{
     display: none;   
 }
-.button{
+button{
     color: blue;
     font-size: 3vw;
     cursor: pointer;
     border: none;
 }
-.button{
+button{
     color: red;
     font-size: 3vw;
     cursor: pointer;
