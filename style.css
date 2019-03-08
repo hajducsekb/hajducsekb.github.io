@@ -14,4 +14,18 @@ a:hover {
 td {
     text-align: center;
 }
-
+#screens{
+    display: none;   
+}
+.button{
+    color: blue;
+    font-size: 3vw;
+    cursor: pointer;
+    border: none;
+}
+.button{
+    color: red;
+    font-size: 3vw;
+    cursor: pointer;
+    border: none;
+}
