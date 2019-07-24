@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<body>
+<div class="header" id="myHeader">
+  <table class="headertable" width="100%" bgcolor="black">
+    <tr>
+    <td class="headertd"><a class="headera" href="index.html">Home</a></td>
+    <td class="headertd"><a class="headera" href="creations.html">My Creations</a></td>
+    <td class="headertd"><a class="headera" href="sessions.html">My Sessions</a></td>
+    <td class="headertd"><a class="headera" href="misc.html">Misc</a></td>
+    </tr>
+  </table>
+</div> 
+ <center>
+<br /><br /> <table width='100%' border='1'>
+     <tr width = "100%">
+         <td class="sessionlog">
+            Date
+         </td>
+         <td class="sessionlog">
+            Name
+        </td>
+        <td class="sessionlog">
+            Cars used
+        </td>
+        <td class="sessionlog">
+            Details
+        </td>
+        <td class="sessionlog">
+            Sessionlog 
+        </td>
+        <td class="sessionlog">
+            Replays
+        </td>
+     </tr>
+     <tr width = "100%">
+            <td class="sessionlog" id="1">
+               2019/07/23
+            </td>
+            <td class="sessionlog">
+               Rookies vs Pro AI
+           </td>
+           <td class="sessionlog">
+               Stock Rookies
+           </td>
+           <td class="sessionlog">
+               Details
+           </td>
+           <td class="sessionlog">
+               <a href='https://online.re-volt.io/sessions/results.php?file=main/session_2019-07-23_21-20-44.csv' target="Blank">I/O site</a>
+               <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.003 3h2.997v5h-2.997v-5zm8.997 1v20h-24v-24h20l4 4zm-19 5h14v-7h-14v7zm16 4h-18v9h18v-9z"/></svg></a>
+           </td>
+           <td class="sessionlog">
+                <a href='https://drive.google.com/file/d/1ZZ5LwwvGTraN9lxp999iMUl4pXAdTULk/view?usp=sharing' target="Blank">GDrive</a>
+           </td>
+        </tr>
+     </table>
+     <br /><br /><br />
+<div id='showold'class="button" onclick="showOlder();">
+Show older sessions</div><br><br>
+ <table id="pasts" style="display:none">
+  <tbody><tr width="100%">
+   <td>No older sessions yet.</td>
+  </tr>
+ </tbody></table>
+ <br /><div class="button" onclick="darkMode();" style="text-align:center;" id="darkswitcher">Dark Mode</div>
+ <script>
+window.onload = function() {
+    if (localStorage['style'] === 'black'){
+darkMode()
+}
+}
+function showOlder() {
+  var x = document.getElementById("pasts");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    document.getElementById('showold').innerHTML = 'Hide older sessions'
+  } else {
+    x.style.display = "none";
+    document.getElementById('showold').innerHTML = 'Show older sessions'
+  }
+}
+function darkMode(){
+  var y =  document.body;
+  var b = document.getElementById("darkswitcher").innerHTML;
+  if (getComputedStyle(y).backgroundColor === "rgb(227, 226, 226)") {
+    y.style.backgroundColor = "#000000";
+    y.style.color = "white";
+    document.getElementById("darkswitcher").innerHTML = "Light Mode";
+    localStorage['style'] = 'black';
+  } else{
+    y.style.backgroundColor = "#E3E2E2";
+    y.style.color = "black";
+    document.getElementById("darkswitcher").innerHTML = "Dark Mode";
+    localStorage['style'] = 'white';
+  }
+}
+</script>
+ </center>
+</body></html>

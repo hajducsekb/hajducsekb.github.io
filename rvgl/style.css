@@ -1,0 +1,66 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #E3E2E2;
+    font-size: 16pt;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    margin: 10px
+}
+td {
+    text-align: center;
+}
+.headertd{
+    width: 25%;
+    font-size: 14pt;
+}
+.headertable{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+.sessionlog{
+    width: 13%;
+}
+.headera{
+    color: white;
+}
+#screens{
+    display: none;   
+}
+.button{
+    color: blue;
+    font-size: 20pt;
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    outline: none;
+}
+.button:hover{
+    color: red;
+    font-size: 20pt;
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    text-decoration: none;
+    outline: none;
+}
+h1{
+    text-align: center; 
+    margin-left: 25px; 
+}
+#titlepara{
+    text-align: center;   
+}
+#darkswitcher{
+}
