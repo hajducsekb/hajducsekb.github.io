@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<body id="body">
+<div class="header" id="myHeader">
+  <table class="headertable" width="100%">
+    <tr>
+        <td class="headertd"><a class="headera" href="index.html">Home</a></td>
+        <td class="headertd"><a class="headera" href="creations.html">My Creations</a></td>
+        <td class="headertd"><a class="headera" href="sessions.html">My Sessions</a></td>
+        <td class="headertd"><a class="headera" href="misc.html">Misc</a></td>
+    </tr>
+  </table>
+</div> 
+<br /><h1 class="headertext" id="header1" >Welcome to hajducsekb's RVGL site!</h1>
+<center><img src='4.png' width='80%' /></center>
+<div class="button" onclick="darkMode();" style="text-align:center;" id="darkswitcher">Dark Mode</div>
+ <center>
+<br /><br />
+ <script>
+window.onload = function() {
+    if (localStorage['style'] === 'black'){
+darkMode()
+}
+}
+function showScreenshots() {
+  var x = document.getElementById("screens");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function darkMode(){
+  var y =  document.body;
+  var b = document.getElementById("darkswitcher").innerHTML;
+  if (getComputedStyle(y).backgroundColor === "rgb(227, 226, 226)") {
+    y.style.backgroundColor = "#000000";
+    y.style.color = "white";
+    document.getElementById("darkswitcher").innerHTML = "Light Mode";
+    localStorage['style'] = 'black';
+  } else{
+    y.style.backgroundColor = "#E3E2E2";
+    y.style.color = "black";
+    document.getElementById("darkswitcher").innerHTML = "Dark Mode";
+    localStorage['style'] = 'white';
+  }
+}
+</script>
+ </center>
+
+ 
+</ul></body></html>
