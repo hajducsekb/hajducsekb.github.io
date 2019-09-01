@@ -1,10 +1,18 @@
+@font-face {
+    font-family: 'squada_oneregular';
+    src: url('squadaone-regular-webfont.woff2') format('woff2'),
+         url('squadaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0 0 0 0;
     background-color: #E3E2E2;
     font-size: 16pt;
+    font-family: squada_oneregular
 }
 a {
-    color: blue;
+    color: rgb(0, 119, 255);
     text-decoration: none;
 }
 a:hover {
@@ -38,7 +46,7 @@ td {
     display: none;   
 }
 .button{
-    color: blue;
+    color: rgb(0, 119, 255);
     font-size: 20pt;
     cursor: pointer;
     border: none;
@@ -61,4 +69,11 @@ h1{
 }
 #titlepara{
     text-align: center;   
+}
+#darkswitcher{
+}
+.statstable{
+    width: 20%;
+    margin-top: 20px;
+    background-color: rgba(255, 123, 0, 0.5);
 }
