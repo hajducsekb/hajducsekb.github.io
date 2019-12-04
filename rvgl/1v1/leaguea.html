@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+<body id="body">
+<div class="header" id="myHeader">
+  <table class="headertable" width="100%">
+    <tr>
+        <td class="headertd"><a class="headera" href="index.html">Home</a></td>
+        <td class="headertd"><a class="headera" href="creations.html">My Creations</a></td>
+        <td class="headertd"><a class="headera" href="sessions.html">My Sessions</a></td>
+        <td class="headertd"><a class="headera" href="misc.html">Misc</a></td>
+    </tr>
+  </table>
+</div> 
+<br />
+<table>
+  <th>
+    <td>
+    Week
+    </td>
+    <td>
+    Starting Time
+    </td>
+    <td>
+    Player 1
+    </td>
+    <td>
+    Score 1
+    </td>
+    <td>
+    Score 2
+    </td>
+    <td>
+    Player 2
+    </td>
+    <td>
+    Replays/Sessionlog
+    </td>
+  </th>
+  <tr>
+    <td>
+    Week 1
+    </td>
+    <td>
+    Tuesday 15:00
+    </td>
+    <td>
+    <b>Pseudotri</b>
+    </td>
+    <td>
+    <b>3</b>
+    </td>
+    <td>
+    0
+    </td>
+    <td>
+    Kert
+    </td>
+    <td>
+    <a href="https://www.dropbox.com/s/h363yv7938cc3gm/leaguea_week1_match1_kert_pseudo.zip?dl=1">Dropbox</a>
+    </td>
+  </tr>
+</table>
+<div class="button" onclick="darkMode();" style="text-align:center;" id="darkswitcher">Dark Mode</div>
+ <center>
+<br /><br />
+ <script>
+window.onload = function() {
+    if (localStorage['style'] === 'black'){
+darkMode()
+}
+}
+function darkMode(){
+  var y =  document.body;
+  var b = document.getElementById("darkswitcher").innerHTML;
+  if (getComputedStyle(y).backgroundColor === "rgb(227, 226, 226)") {
+    y.style.backgroundColor = "#000000";
+    y.style.color = "white";
+    document.getElementById("darkswitcher").innerHTML = "Light Mode";
+    localStorage['style'] = 'black';
+  } else{
+    y.style.backgroundColor = "#E3E2E2";
+    y.style.color = "black";
+    document.getElementById("darkswitcher").innerHTML = "Dark Mode";
+    localStorage['style'] = 'white';
+  }
+}
+</script>
+ </center>
+
+ 
+</ul></body></html>
