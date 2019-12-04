@@ -25,11 +25,10 @@ p{
 }
 td {
     text-align: center;
-    width: 98%;
 }
 tr{
     align: center;
-    width: 14%;
+    width: 98%;
 }
 .headertd{
     width: 25%;
