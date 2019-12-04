@@ -26,6 +26,10 @@ p{
 td {
     text-align: center;
 }
+tr{
+    width: 98;
+    align: center;
+}
 .headertd{
     width: 25%;
     font-size: 14pt;
