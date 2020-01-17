@@ -1,0 +1,1120 @@
+<html>
+               <head>
+                 <base href="file:///home/hajducsekb/Documents/2019yearinreview/script.html/">
+                 <meta charset="UTF-8">
+                 <meta name = "viewport" content = "width = device-width, initial-scale = 1, maximum-scale = 1">
+                 <style id="style">
+@font-face {
+  font-family: 'Lato';
+  src: url('file:///usr/lib/boostnote/resources/app/resources/fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('file:///usr/lib/boostnote/resources/app/resources/fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/Lato-Black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/MaterialIcons-Regular.woff') format('woff'),
+       url('file:///usr/lib/boostnote/resources/app/resources/fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-size: 16px;
+  padding: 15px;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+body .katex-display > .katex {
+  white-space: nowrap;
+}
+body .katex {
+  white-space: initial;
+}
+body .katex .katex-html {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
+}
+body .katex .mfrac>.vlist>span:nth-child(2) {
+  top: 0 !important;
+}
+body .katex-error {
+  background-color: #f2dede;
+  color: #a64444;
+  padding: 5px;
+  margin: -5px;
+  border-radius: 5px;
+}
+body .flowchart-error,
+body .sequence-error .chart-error {
+  background-color: #f2dede;
+  color: #a64444;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-pack: left;
+  -moz-box-pack: left;
+  -o-box-pack: left;
+  -ms-flex-pack: left;
+  -webkit-justify-content: left;
+  justify-content: left;
+}
+li label.taskListItem {
+  margin-left: -1.8em;
+}
+li label.taskListItem.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+li.taskListItem.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+div.math-rendered {
+  text-align: center;
+}
+.math-failed {
+  background-color: rgba(255,0,0,0.1);
+  color: #d90000;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+sup {
+  position: relative;
+  top: -0.4em;
+  font-size: 0.8em;
+  vertical-align: top;
+}
+sub {
+  position: relative;
+  bottom: -0.4em;
+  font-size: 0.8em;
+  vertical-align: top;
+}
+a {
+  color: #2bac8f;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: -5px;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  -ms-transition: 0.1s;
+  transition: 0.1s;
+}
+a img {
+  vertical-align: sub;
+}
+a:hover {
+  color: #2eb899;
+  text-decoration: underline;
+  background-color: rgba(255,201,92,0.3);
+}
+a:visited {
+  color: #2bac8f;
+}
+hr {
+  border-top: none;
+  border-bottom: solid 1px #d0d0d0;
+  margin: 15px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  word-wrap: break-word;
+}
+h1 {
+  font-size: 2.55em;
+  padding-bottom: 0.3em;
+  line-height: 1.2em;
+  border-bottom: solid 1px #d0d0d0;
+  margin: 1em 0 0.44em;
+}
+h1:first-child {
+  margin-top: 0;
+}
+h2 {
+  font-size: 1.75em;
+  padding-bottom: 0.3em;
+  line-height: 1.225em;
+  border-bottom: solid 1px #d0d0d0;
+  margin: 1em 0 0.57em;
+}
+h2:first-child {
+  margin-top: 0;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1.43em;
+  margin: 1em 0 0.66em;
+}
+h4 {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  margin: 1em 0 0.8em;
+}
+h5 {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 1em 0 1em;
+}
+h6 {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 1em 0 1em;
+  color: #777;
+}
+p {
+  line-height: 1.6em;
+  margin: 0 0 1em;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+img {
+  cursor: zoom-in;
+  max-width: 100%;
+}
+strong,
+b {
+  font-weight: bold;
+}
+em,
+i {
+  font-style: italic;
+}
+s,
+del,
+strike {
+  text-decoration: line-through;
+}
+u {
+  text-decoration: underline;
+}
+blockquote {
+  border-left: solid 4px #3fb399;
+  margin: 0 0 1em;
+  padding: 0 25px;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+ul li {
+  display: list-item;
+}
+ul li.taskListItem {
+  list-style: none;
+}
+ul li.taskListItem>input {
+  margin-left: -1.6em;
+}
+ul li.taskListItem>p {
+  margin-left: -1.8em;
+}
+ul li p {
+  margin: 0;
+}
+ul>li>ul,
+ul>li>ol {
+  margin: 0;
+}
+ul>li>ul {
+  list-style-type: circle;
+}
+ul>li>ul>li>ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: decimal;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+ol li {
+  display: list-item;
+}
+ol li p {
+  margin: 0;
+}
+ol>li>ul,
+ol>li>ol {
+  margin: 0;
+}
+code {
+  padding: 0.2em 0.4em;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  font-size: 1em;
+  text-decoration: none;
+  margin-right: 2px;
+}
+pre {
+  padding: 0.5rem !important;
+  border: solid 1px #d1d1d1;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  line-height: 1.4em;
+}
+pre code {
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+pre.CodeMirror {
+  height: initial;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+pre.CodeMirror>code {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-x: auto;
+}
+pre.mermaid svg {
+  max-width: 100% !important;
+}
+pre>span.filename {
+  margin: -0.5rem 100% 0.5rem -0.5rem;
+  padding: 0.125rem 0.375rem;
+  background-color: #777;
+  color: #fff;
+}
+pre>span.filename:empty {
+  display: none;
+}
+pre>span.lineNumber {
+  display: none;
+  font-size: 1em;
+  padding: 0.5rem 0;
+  margin: -0.5rem 0.5rem -0.5rem -0.5rem;
+  border-right: 1px solid;
+  text-align: right;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+pre>span.lineNumber.CodeMirror-gutters {
+  position: initial;
+  top: initial;
+  left: initial;
+  min-height: 0 !important;
+}
+pre>span.lineNumber>span {
+  display: block;
+  padding: 0 0.5em 0;
+}
+table {
+  display: block;
+  width: 100%;
+  margin: 0 0 1em;
+  overflow-x: auto;
+}
+table thead tr {
+  background-color: #fff;
+}
+table thead th {
+  border-style: solid;
+  padding: 6px 13px;
+  line-height: 1.6;
+  border-width: 1px 0 2px 1px;
+  border-color: #d0d0d0;
+  font-weight: bold;
+}
+table thead th:last-child {
+  border-right: solid 1px #d0d0d0;
+}
+table tbody tr:nth-child(2n + 1) {
+  background-color: #f9f9f9;
+}
+table tbody tr:nth-child(2n) {
+  background-color: #fff;
+}
+table tbody td {
+  border-style: solid;
+  padding: 6px 13px;
+  line-height: 1.6;
+  border-width: 0 0 1px 1px;
+  border-color: #d0d0d0;
+}
+table tbody td:last-child {
+  border-right: solid 1px #d0d0d0;
+}
+kbd {
+  background-color: #fafbfc;
+  border: solid 1px #d0d0d0;
+  border-bottom-color: #888;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 -1px 0 #959da5;
+  box-shadow: inset 0 -1px 0 #959da5;
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 1;
+  padding: 3px 5px;
+}
+.admonition.note,
+.admonition.hint,
+.admonition.danger,
+.admonition.caution,
+.admonition.error,
+.admonition.attention {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  position: relative;
+  margin: 1.5625em 0;
+  padding: 0 1.2rem;
+  border-left: 0.4rem solid #448aff;
+  border-radius: 0.2rem;
+  overflow: auto;
+}
+html .admonition>:last-child {
+  margin-bottom: 1.2rem;
+}
+.admonition .admonition {
+  margin: 1em 0;
+}
+.admonition p {
+  margin-top: 0.5em;
+}
+.admonition.note>.admonition-title:before,
+.admonition.hint>.admonition-title:before,
+.admonition.danger>.admonition-title:before,
+.admonition.caution>.admonition-title:before,
+.admonition.error>.admonition-title:before,
+.admonition.attention>.admonition-title:before {
+  position: absolute;
+  left: 1.2rem;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+/* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+/* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+/* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+/* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.admonition.note>.admonition-title,
+.admonition.hint>.admonition-title,
+.admonition.danger>.admonition-title,
+.admonition.caution>.admonition-title,
+.admonition.error>.admonition-title,
+.admonition.attention>.admonition-title {
+  margin: 0 -1.2rem;
+  padding: 0.8rem 1.2rem 0.8rem 4rem;
+  border-bottom: 0.1rem solid rgba(68,138,255,0.1);
+  background-color: rgba(68,138,255,0.1);
+  font-weight: 700;
+}
+.admonition>.admonition-title:last-child {
+  margin-bottom: 0;
+}
+.admonition.note {
+  border-left-color: #0288d1;
+}
+.admonition.note>.admonition-title {
+  border-bottom-color: 0.1rem solid rgba(2,136,209,0.2);
+  background-color: rgba(2,136,209,0.2);
+}
+.admonition.note>.admonition-title:before {
+  color: #0288d1;
+  content: "note";
+}
+.admonition.hint {
+  border-left-color: #009688;
+}
+.admonition.hint>.admonition-title {
+  border-bottom-color: 0.1rem solid rgba(0,150,136,0.2);
+  background-color: rgba(0,150,136,0.2);
+}
+.admonition.hint>.admonition-title:before {
+  color: #009688;
+  content: "info_outline";
+}
+.admonition.danger {
+  border-left-color: #c2185b;
+}
+.admonition.danger>.admonition-title {
+  border-bottom-color: 0.1rem solid rgba(194,24,91,0.2);
+  background-color: rgba(194,24,91,0.2);
+}
+.admonition.danger>.admonition-title:before {
+  color: #c2185b;
+  content: "block";
+}
+.admonition.caution {
+  border-left-color: #ffa726;
+}
+.admonition.caution>.admonition-title {
+  border-bottom-color: 0.1rem solid rgba(255,167,38,0.2);
+  background-color: rgba(255,167,38,0.2);
+}
+.admonition.caution>.admonition-title:before {
+  color: #ffa726;
+  content: "warning";
+}
+.admonition.error {
+  border-left-color: #d32f2f;
+}
+.admonition.error>.admonition-title {
+  border-bottom-color: 0.1rem solid rgba(211,47,47,0.2);
+  background-color: rgba(211,47,47,0.2);
+}
+.admonition.error>.admonition-title:before {
+  color: #d32f2f;
+  content: "error_outline";
+}
+.admonition.attention {
+  border-left-color: #455a64;
+}
+.admonition.attention>.admonition-title {
+  border-bottom-color: 0.1rem solid rgba(69,90,100,0.2);
+  background-color: rgba(69,90,100,0.2);
+}
+.admonition.attention>.admonition-title:before {
+  color: #455a64;
+  content: "priority_high";
+}
+dl {
+  margin: 2rem 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  width: 100%;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -o-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #d0d0d0;
+  background-color: #fff;
+}
+dt {
+  border-top: 1px solid #d0d0d0;
+  font-weight: bold;
+  text-align: right;
+  overflow: hidden;
+  -webkit-flex-basis: 20%;
+  flex-basis: 20%;
+  padding: 0.4rem 0.9rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+dd {
+  border-top: 1px solid #d0d0d0;
+  -webkit-flex-basis: 80%;
+  flex-basis: 80%;
+  padding: 0.4rem 0.9rem;
+  min-height: 2.5rem;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+dd + dd {
+  margin-left: 20%;
+}
+pre.fence {
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+pre.fence .chart,
+pre.fence .flowchart,
+pre.fence .mermaid,
+pre.fence .sequence {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #fff;
+  max-width: 100%;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+pre.fence .chart canvas,
+pre.fence .flowchart canvas,
+pre.fence .mermaid canvas,
+pre.fence .sequence canvas,
+pre.fence .chart svg,
+pre.fence .flowchart svg,
+pre.fence .mermaid svg,
+pre.fence .sequence svg {
+  max-width: 100% !important;
+}
+pre.fence .gallery {
+  width: 100%;
+  height: 50vh;
+}
+pre.fence .gallery .carousel .carousel-main img {
+  min-width: auto;
+  max-width: 100%;
+  min-height: auto;
+  max-height: 100%;
+}
+pre.fence .gallery .carousel .carousel-footer::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+pre.fence .gallery .carousel .carousel-main,
+pre.fence .gallery .carousel .carousel-footer {
+  background-color: #fff;
+}
+pre.fence .gallery .carousel .prev,
+pre.fence .gallery .carousel .next {
+  color: #333;
+  background-color: rgba(0,0,0,0.3);
+}
+body[data-theme="dark"] {
+  color: #f9f9f9;
+  border-color: #444b59;
+  background-color: #2c3033;
+}
+body[data-theme="dark"] a:hover {
+  background-color: rgba(90,214,186,0.2) !important;
+}
+body[data-theme="dark"] code {
+  color: #ea6730;
+  border-color: #3d4450;
+  background-color: #363a3e;
+}
+body[data-theme="dark"] pre {
+  border-color: #474f5c;
+}
+body[data-theme="dark"] pre code {
+  background-color: transparent;
+}
+body[data-theme="dark"] label.taskListItem {
+  background-color: #2c3033;
+}
+body[data-theme="dark"] table thead tr {
+  background-color: #282b2e;
+}
+body[data-theme="dark"] table thead th {
+  border-color: #444b59;
+}
+body[data-theme="dark"] table thead th:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="dark"] table tbody tr:nth-child(2n + 1) {
+  background-color: #2c3033;
+}
+body[data-theme="dark"] table tbody tr:nth-child(2n) {
+  background-color: #282b2e;
+}
+body[data-theme="dark"] table tbody td {
+  border-color: #444b59;
+}
+body[data-theme="dark"] table tbody td:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="dark"] kbd {
+  background-color: #444b59;
+  color: #f9f9f9;
+}
+body[data-theme="dark"] dl {
+  border-color: #444b59;
+  background-color: #282b2e;
+}
+body[data-theme="dark"] dt {
+  border-color: #444b59;
+}
+body[data-theme="dark"] dd {
+  border-color: #444b59;
+  background-color: #2c3033;
+}
+body[data-theme="dark"] pre.fence .gallery .carousel-main,
+body[data-theme="dark"] pre.fence .gallery .carousel-footer {
+  background-color: #2c3033;
+}
+body[data-theme="dark"] pre.fence .gallery .prev,
+body[data-theme="dark"] pre.fence .gallery .next {
+  color: #ddd;
+  background-color: #3a404c;
+}
+body[data-theme="solarized-dark"] {
+  color: #93a1a1;
+  border-color: #444b59;
+  background-color: #073642;
+}
+body[data-theme="solarized-dark"] table thead tr {
+  background-color: #06313b;
+}
+body[data-theme="solarized-dark"] table thead th {
+  border-color: #444b59;
+}
+body[data-theme="solarized-dark"] table thead th:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="solarized-dark"] table tbody tr:nth-child(2n + 1) {
+  background-color: #073642;
+}
+body[data-theme="solarized-dark"] table tbody tr:nth-child(2n) {
+  background-color: #06313b;
+}
+body[data-theme="solarized-dark"] table tbody td {
+  border-color: #444b59;
+}
+body[data-theme="solarized-dark"] table tbody td:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="solarized-dark"] dl {
+  border-color: #444b59;
+  background-color: #06313b;
+}
+body[data-theme="solarized-dark"] dt {
+  border-color: #444b59;
+}
+body[data-theme="solarized-dark"] dd {
+  border-color: #444b59;
+  background-color: #073642;
+}
+body[data-theme="solarized-dark"] pre.fence .gallery .carousel-main,
+body[data-theme="solarized-dark"] pre.fence .gallery .carousel-footer {
+  background-color: #073642;
+}
+body[data-theme="solarized-dark"] pre.fence .gallery .prev,
+body[data-theme="solarized-dark"] pre.fence .gallery .next {
+  color: #93a1a1;
+  background-color: #002b36;
+}
+body[data-theme="monokai"] {
+  color: #f8f8f2;
+  border-color: #444b59;
+  background-color: #272822;
+}
+body[data-theme="monokai"] table thead tr {
+  background-color: #23241f;
+}
+body[data-theme="monokai"] table thead th {
+  border-color: #444b59;
+}
+body[data-theme="monokai"] table thead th:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="monokai"] table tbody tr:nth-child(2n + 1) {
+  background-color: #272822;
+}
+body[data-theme="monokai"] table tbody tr:nth-child(2n) {
+  background-color: #23241f;
+}
+body[data-theme="monokai"] table tbody td {
+  border-color: #444b59;
+}
+body[data-theme="monokai"] table tbody td:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="monokai"] kbd {
+  background-color: #1e2127;
+}
+body[data-theme="monokai"] dl {
+  border-color: #444b59;
+  background-color: #23241f;
+}
+body[data-theme="monokai"] dt {
+  border-color: #444b59;
+}
+body[data-theme="monokai"] dd {
+  border-color: #444b59;
+  background-color: #272822;
+}
+body[data-theme="monokai"] pre.fence .gallery .carousel-main,
+body[data-theme="monokai"] pre.fence .gallery .carousel-footer {
+  background-color: #272822;
+}
+body[data-theme="monokai"] pre.fence .gallery .prev,
+body[data-theme="monokai"] pre.fence .gallery .next {
+  color: #fff;
+  background-color: #373831;
+}
+body[data-theme="dracula"] {
+  color: #f8f8f2;
+  border-color: #444b59;
+  background-color: #282a36;
+}
+body[data-theme="dracula"] table thead tr {
+  background-color: #242631;
+}
+body[data-theme="dracula"] table thead th {
+  border-color: #444b59;
+}
+body[data-theme="dracula"] table thead th:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="dracula"] table tbody tr:nth-child(2n + 1) {
+  background-color: #282a36;
+}
+body[data-theme="dracula"] table tbody tr:nth-child(2n) {
+  background-color: #242631;
+}
+body[data-theme="dracula"] table tbody td {
+  border-color: #444b59;
+}
+body[data-theme="dracula"] table tbody td:last-child {
+  border-right: solid 1px #444b59;
+}
+body[data-theme="dracula"] kbd {
+  background-color: #1e2127;
+}
+body[data-theme="dracula"] dl {
+  border-color: #444b59;
+  background-color: #242631;
+}
+body[data-theme="dracula"] dt {
+  border-color: #444b59;
+}
+body[data-theme="dracula"] dd {
+  border-color: #444b59;
+  background-color: #282a36;
+}
+body[data-theme="dracula"] pre.fence .gallery .carousel-main,
+body[data-theme="dracula"] pre.fence .gallery .carousel-footer {
+  background-color: #282a36;
+}
+body[data-theme="dracula"] pre.fence .gallery .prev,
+body[data-theme="dracula"] pre.fence .gallery .next {
+  color: #f8f8f2;
+  background-color: #44475a;
+}
+/*# sourceMappingURL=browser/components/markdown.css.map */
+
+body {
+  font-family: 'Lato','meiryo','Microsoft YaHei','helvetica','arial','sans-serif';
+  font-size: 14px;
+  
+  
+}
+@media print {
+  body {
+    padding-bottom: initial;
+  }
+}
+code {
+  font-family: 'Monaco','Monaco','Menlo','Ubuntu Mono','Consolas','source-code-pro','monospace';
+  background-color: rgba(0,0,0,0.04);
+}
+.lineNumber {
+  display: block !important;
+  font-family: 'Monaco','Monaco','Menlo','Ubuntu Mono','Consolas','source-code-pro','monospace';
+}
+
+.clipboardButton {
+  color: rgba(147,147,149,0.8);;
+  fill: rgba(147,147,149,1);;
+  border-radius: 50%;
+  margin: 0px 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.clipboardButton:hover {
+  transition: 0.2s;
+  color: #939395;
+  fill: #939395;
+  background-color: rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  border: none;
+}
+
+h1 {
+  padding-bottom: 4px;
+  margin: 1em 0 8px;
+}
+
+h2 {
+  padding-bottom: 0.2em;
+  margin: 1em 0 0.37em;
+}
+
+body p {
+  white-space: normal;
+}
+
+@media print {
+  body[data-theme="solarized-dark"] {
+    color: #000;
+    background-color: #fff;
+  }
+  .clipboardButton {
+    display: none
+  }
+}
+
+
+</style>
+                 <link rel="stylesheet" href="css/dracula.css"><link rel="stylesheet" href="css/katex.min.css"><link rel="stylesheet" href="css/codemirror.css"><link rel="stylesheet" href="css/main.min.css">
+               </head>
+               <body><h1 id="Re-Volt-Community---Year-in-review-2019---Script" data-line="0">Re-Volt Community - Year-in-review 2019 -  Script</h1>
+<p data-line="2">[Hotel Retro F6 cam with music quietly playing…]<br />
+<em>The year 2019… If you go through all the stock RV cars in order, the 19th and 20th cars will be Pest Control and Adeon, cars you can only unlock through the gold cup… Does this mean that 2019 was a golden year?</em><br />
+[cut to black]<br />
+<em>Yeah, that’s a bullshit analogy…</em> [Video thumbnail shown] <em>But that doesn’t mean the year of the 20th anniversary wasn’t full of fun or entertainment in the community. We’ve had meetups, carnivals and even meme events that may have gone a bit too insane (Looking at you, Tomatoes!). However, let’s first recap what happened to rvgl itself!</em><br />
+<em>The game was updated pretty frequently during the first few months of the year up until April 30th</em>[Text shown: Until April 30th - minor changes]<em>, with all updates containing minor tweaks and adds like the option to save replays, mouse controls and the inclusion of chatlogs alongside the already existing sessionlogs. After this, updates came to a bit of a halt. However, major changes were coming…</em> [August 19th update transitions in: August 19th - Online CPU, then video of random cars with Multiplayer CPU cuts in and text moves under that.] <em>the first more significant update came on August 19th (the exact 20th anniversary of the original release, according to Huki), and this version added Multiplayer CPU to online games. This meant we could fill up the rest of the spots with bots without having to run multiple instances of the game. It also allowed us to go even crazier with Random Cars and Random Tracks sessions, like the session you’re seeing on the screen.</em><br />
+[0907 update text, with Touge Mountain on screen]<br />
+<em>Another important update came thanks to Saffron creating her new track called Touge Mountain. This was an uphill track with a pretty nice scenery, for both drift and normal cars. However, it was a sprint track which didn’t RVGL didn’t have proper support for… yet. On the 7th of September, Huki released a patch that made Touge Mountain something else, and now everyone is able to create a sprint track!</em><br />
+<em>The last patch of the year came on the first of October, which, among many other new things, brought an old cheat code back, but in a different form. This was the JOKER tag, which made all cars in the race the same (in multiplayer, only the host can use this). That day, people got pranked…</em><br />
+[Skiing Paradise is shown - ski lift]<br />
+<em>The last patch was released on the 30th of December… and the most important update it brought was towards the track creation scene. Now people are able to create custom animations and are also able to modify the gravity on a per-track basis. Sessionlogs were now written even in offline game modes, and [Spider-Man Metro-Volt meme is shown] the infamous Metro-Volt star bug was fixed as well</em><br />
+[SSR5 is shown]<br />
+<em>The track creation scene wasn’t kicked off easily, but for a few nice tracks in the first half of the year. Among those were Route 5 with two stages, and this track was a recreation from Gran Turismo. It has a dark, nightly sky, and the lighting provided by the city lamps help it achieve great visuals, which is paired with a nice flow.</em><br />
+[Hull Breach 3000 is shown]<br />
+<em>After his Spa-Volt tracks, Kiwi returned this time with a track that was originally made by Skitch2, and Kiwi has made a redux version of it. This is Hull Breach 3000, and though I only tested the original in a 1v1 race, Hull Breach 3’s raceline was definitely improved by Kiwi, and along with this, he also addressed quite a few bugs. Kiwi also released another track, but that will be talked about later with community events and competitions.</em><br />
+[A MK Wii track is shown (getrains?)]<br />
+<em>In August, Alexander finally decided it was time to release his conversions which consisted of Mario Kart Wii custom tracks, along with the announcement of a time trial event. The conversions were pretty nice visually and even though they were created for Mario Kart, they also fit the RV modding scene well.</em><br />
+[Touge Mountain, Route-77, (Rooftops 1?)]<br />
+<em>In September, tracks started to arrive quickly. After Saffron’s Touge Mountain was released, Route-77 arrived on Revoltzone and also on XTG, due to RVZ’s 15mb size limit. It’s a bit hard to say, but probably this track was the most popular this year, since it has only 5 downloads less than Rooftops 1 (a track released on the same day, coincidentally), but it probably passes that if we consider that the full version was only available on xtg. And I think this is pretty rightful. The flow is awesome while still being pretty challenging, and the visuals are on a whole new level. Their cartoonish looks really fit well with the game’s concept, and that’s part of what makes this track astonishing.<br />
+Rooftops 1, on the other hand, is a revamp of the Fiddlers on the Roof track, which was originally inspired by official concept art. The track has major graphical improvements, however it sparked quite a bit of controversy. The track kind of breaks the original flow of Fiddlers by farce fields and open windows. Another criticism it received was considering its name… but let’s not go into that issue.</em><br />
+[No Repo Trackpack, people falling off at the funky corner are shown]<br />
+<em>The second to last track in this list might not actually be a track, but rather a trackpack. This is the No Repo or No Reposition pack instead. Tracks converted to this format leave AI Nodes behind, therefore if you fall to your death, you cannot reposition anymore. Tracks like GBA Rainbow Road and To The Moon</em> [To The Moon is shown] <em>make this pack what it is! It’s a new form of online racing, and it’s been pretty intense so far. The stable version might be out before the end of the year, it’s been in beta version so far.</em><br />
+[School-Volt]<br />
+<em>However, no tracks were expected with as much anticipation this year as School’s Out was. After Kiwi went on a short break from the community, he came back with this track in mind, and the publicly released footage already highlighted the attention to detail as per tradition with all of the author’s levels. The map has sections inspired by Toys in the Hood 1, Supermarket 2 and Skatepark F20. It’s also one of the longest tracks ever made. While Kiwi made a planned estimate of about a 1000 meters in September, according to the images shared by him, the track will be 1566 meters long. As far as I’m concerned, this is longer than any track in the main or bonus packs and only some circuit tracks surpass it, when it comes to the IO packs. While the track hasn’t been released as of the recording of this video, I’m fairly sure that in pair with its easter eggs and challenges, it will be an astounding experience!</em><br />
+<a href="https://cdn.discordapp.com/attachments/469919290338836483/655389151637798942/unknown.png">books as revealed by Kiwi</a><br />
+<a href="https://media.discordapp.net/attachments/469919290338836483/655137583625666600/unknown.png">Skidmarks</a><br />
+<a href="https://media.discordapp.net/attachments/469919290338836483/652633682732908566/unknown.png">Thumbnail + Length</a></p>
+<p data-line="29">[New Cars]<br />
+<em>There were too many cars released this year that could be shown in this video, but Saeger</em> [Saeger footage shown] <em>was definitely one of them.</em></p>
+<p data-line="32">[Racing Events]<br />
+<em>But let’s move on to the online multiplayer events that have happened throughout the year. There were many of them, including creative, new session formats and classic, reoccuring ones.</em><br />
+[Af6 footage shown]<br />
+<em>The first noteable session that happened was probably the 6th rendition of All’s Fair. Many creative cars were crafted for this occasion, including, but not limited to Pizza Time, Wheelchair Minion and Rocket Rodent. The competition was won by Saffron with community based prizes (appearance and innovation) going to DC.All and Shara.</em><br />
+[Trolley.mp4]<br />
+<em>Another very interesting session that happened was a Trolley exclusive, where there was one very memorable moment that caused a bit of controversy as well. Carnival (namely Alex) used a bowling ball at the jump in Toy World, and the ball turned back on the jump. It ended up hitting WSDGuy, who was fighting for a good position there. This may have cost the session win for WSDGuy to… Alex himself! Had WSDGuy not stopped after the incident… who knows what would’ve happened. This lead to a bit of post-session drama in Discord, which is now a pinned message in the online channel. What an epic battle!</em><br />
+[Long Journey? Footage?]<br />
+<em>When the actual 20th anniversary came around in July, a session was announced to celebrate, and this was hosted by Ohnej. This session set racing all tracks in the packs as its main goal. And it was pretty memorable. It was split into 4 parts, with the last day being Acclaim day, where the stock tracks were raced. It served well as a 20 year tribute to the game, and it was overall won by Ohnej himself.</em><br />
+[Rare Cars]<br />
+<em>At the end of July, I calculated some statistics using a python script. This let me realize in actual numbers, how much more Toyeca was raced compared to other cars. Therefore, I’ve decided that I should host a rare cars session at the 5th of August, where the rarest cars from the pro class would be used. A variaty of cars were raced that day, and people discovered new cars to like.</em><br />
+[Af7 - Shrok footage]<br />
+The 7th All’s Fair event happened at the end of August, and many memorable cars were created. These included the likes of Stack of Pencakes, The Cool Shoeshine and SSJ Garfield. The competition was won by Alex, but this was thanks to Toytanic 3’s results being removed - a move that was voted on by the participants, since only 5 people finished out of 13. We also got a cool new track, that is called Bonezone, and this was made by Alex.<br />
+[Tomatoes]<br />
+<em>Meme racing events happened as well, tomatoes session with Andor reading tomato facts was one of these. This racing sensation was organized by Zeino, and happened at the beginning of September There, we learnt the pronounciation of the word “Tomato”.</em> [footage where Andor says tomátó]<br />
+[Eggdogs]<br />
+<em>1 day after the Tomato event, we also raced eggdogs, a car created by URV. This car has a custom engine sound, and it basically rolls on the floor. The session was great, and the car really offered challenges even on basic tracks.</em><br />
+[Pace Car Races]<br />
+<em>Shara brought in a new racing format in September, which was inspired by Gran Turismo, and partially SuperTuxKart. These were the pace car races. The goal was to go as fast as you can, but still stay behind a specific AI car. Passing this AI car resulted in a kick, and you could only rejoin the next race.</em><br />
+[Endurance]<br />
+<em>On the 25th of October, I decided that I’d organize a session where only the most patient can win overall. This was an endurance session, which consisted of races that were approximately 10 minutes long, and we raced 14 tracks overall. The session overall went on for about 2 and a half hours, and Laggeerok managed to win by a huge advantage, proving to be the most consistent driver of the participants. The event also included 2 double point tracks that went on for a bit longer, these were Red Rock Valley and Special Stage Route 5.</em><br />
+[Halloween]<br />
+<em>The following event was the Halloween Carnival. The base car for the event was Frollin, and people could modify this to have a custom skin, or even a custom model, as shown by Alex’s example. The event went pretty well, with Carnage ensuing on most of the tracks. We also got a couple of new Lego Extreme Tracks, and one of the most legendary replay recording and voice chat combination. [GOODBYEMYFRIEND]</em><br />
+[Line Elimination]<br />
+<em>Another new format of session was created, again, by Shara. This was the Line Elimination, where the goal was to avoid being passed by the line, which was a well parametered AI car. But it wasn’t really a car, to be honest - we saw it as an actual purple line on the ground. This was one of the most intense racing sessions this year, and it was organized multiple times because of it.</em><br />
+[Toyota Coaster - footage: AMCO Bitume start]<br />
+<em>Saffron organized a fun event as well, and this was an exclusive session for the Toyota Coaster car. The car (or rather bus) has really entartaining handling, and definitely produced a lot of intense moments. The session was, of course, radioactive, so people could even do things that are not listed in the racing etiquette.</em><br />
+[1v1 league - mmud vs Pseudo on Ranch]<br />
+<em>After the qualifications were done in November, the 1v1 championship started on the first week of December. All in all, more than 40 people signed up across 6 leagues, so it’s obviously very popular (though some have given up already). The leagues are mostly halfway through (except for League E), so there could be some interesting fights with high stakes coming up!</em><br />
+[Christmas Carnival]<br />
+One of the last events of the year was the Christmas Carnival. The base car was BHV 1, and participants could repaint and remodel this (though they couldn’t modify the parameters or collision) to their own liking, and mostly to fit a wintery theme. Daniel won the competition part, and Santa Pongus by URV was the winner of the beauty contest.</p>
+<p data-line="63">[Competitions]<br />
+*There were also quite a few events that happened on not neccessarily the racing side, but still competitions. *<br />
+[Zeino’s TT Challenge - Maxx Z footage?]<br />
+<em>The first one of these were Zeino’s time trial challenges which were supposed be a monthly event. These events would include a list of cars and tracks, and there’s a specific rule about which car you race and on what track. Unfortunately due to the lack of interest, these ended up happening less frequently than promised, but in the last 2 months, Zeino made an attempt to restart this challenge, and hopefully it can thrive in 2020.</em><br />
+[Themed Lego EX Track Competition - Beehive Valley Adventures footage]<br />
+<em>The next exciting competition was the Themed Lego Extreme Track Competition, which was announced by Wicihlie and Zeino in May. Amazingly, Kiwi’s Beehive Valley Adventures came out of this challenge. The track is a Stunt Arena track, which doesn’t look like a lego track at all, [beehive.jpg] if we don’t see the progress picture of it. The track comes with 2 cars and we need to collect all diamonds using them. Kiwi described the track as more of a seperate game, and advertised it as such on revoltzone. It is also for mature audiences only. The other track that was made for this competition was Botania Terra by Alex, which was also very decent, and it was also a very worthy competitor.</em><br />
+[Sh*t Track Pack]<br />
+<em>Another cool competition that was announced was the Annual Shit Track Pack by Zeino. Getting Over It with Alexander was one of the tracks made for it, which showed a pretty good challenge when it came to finding the directions. A more meme-like track that was made was Realms of shiTRACK, which has pretty bad graphics and custom sounds. It also has Pizza Time. However, the pack didn’t get the anticipated attention, and Zeino may have also overshot with the 100 tracks goal, so it didn’t get released.</em> [Zeino reply here]<br />
+[Themed Lego EX Track Competition - Schizophrenia footage]<br />
+<em>The Themed Lego Extreme Competition’s Round 2 was proposed by Wichilie and Zeino one month before Halloween, and it was met with great interest. The fan favourite and winner track was overwhelmingly Schizophrenia. It has a beautiful nightly theme, and fits the Halloween topic very well. It was made by Turbo, who revealed himself to be Kiwi later on. Alex’s Skeleton Rave was also a track with quite a lot of effort. The track had dancing skeletons, which very much amuzed us during the Halloween Carnival. Because of these Skeletons, it also</em> [thumbnail shown] <em>has a thumbnail that promotes it as…</em> [comments are shown 1 by 1, popping up, some kinda editor wav] <em>Whatever.</em><br />
+[Speedrun weekly]<br />
+<em>The new speedrun server that was created also hosted a weekly challenge that lasted 5 rounds, and had some pretty extraordinary experiences for us, like the Skateboarding T-Rex or Corrupted Slug. Overall, it was won by DVark09 in front of Zeino and Alexander.</em><br />
+[Best Lookin’ Box Competition]<br />
+<em>The last competition of the year was announced by Zeino, and it was the best lookin’ box competition. People had to resking the boxes from Supermarket 1, and the prize was that the boxes would be added to Kiwi’s School’s Out track. Some pretty great boxes were born that month.</em><br />
+[Community]<br />
+<em>While competitions can be intense, there were also events on the community side that weren’t related to competing with each other.</em><br />
+[Frankfurt]<br />
+<em>Among these were the meetups that happened in spite of the 20th anniversary. The biggest one was in Frankfurt, where 7 people attented (6 Re-Volters, and 1 other person). It happened at the end of July, and we had a race with real RC Cars. RV_Passion made an awesome video of all this, so watch his video, if you’re interested in how it all went. Overall, it was an awesome experience, where some pretty cool stories were made, including some delayed flights.</em><br />
+[Romania]<br />
+<em>There was also a 20th anniversary Romanian meetup, where basically Marv visited Vic, and no one else attended, really. They got drunk and announced All’s Fair 7.</em><br />
+[Hungary]<br />
+<em>2 Hungarian meetups happened throughout the year, where we summoned the Mighty Panga. It was an interesting experience, and we also got kinda drunk, which was especially true for the second time we met. We’ve had some real fun times, we’ve made memories and friends there. I sang the worst karaoke I have ever done in my entire life. We all are looking forward to more of this.</em><br />
+[r/revolthaus]<br />
+<em>We also got a new meme subreddit this year, which is called revolthaus and is being moderated by Zeino. We’ve had some cool meme events (exactly 1), like the Halloween event (that had 1 submission by me). Even though these events weren’t that popular, some pretty cool memes were born outside of these, including gifs and still images. This community now also has a Discord server with a cool starboard.</em><br />
+[Speedrun]<br />
+<em>The speedrunning server also got a new Discord server, which inspired many more people to speedrun the whole game, all cups, or perhaps just the Stunt Arena. There is also an autosplitter now which was made by DVark, and it can be used on Windows with the LiveSplit app.</em><br />
+[RC Carnage]<br />
+<em>A new Re-Volt inspired game was started to be developed by Marv in the Godot Engine. It uses similar cars to RV, and it also uses the same or similar file formats as of now. However, the big difference will be that this game will be multiplayer optimized, and will mostly include LMS mode, battle tags, or basically anything considering the game modes will be scriptable.</em></p>
+<p data-line="92">[Best of the year - XY Awards ?]<br />
+<em>And after all this, now let’s consider the very best content of the year… the first ever Pick-up Awards, where we celebrate the best memes and best tracks of the year. I would also like to make a shoutout to car makers, however there are so many cars being published that it would be very hard to pick a best one. In fact, let’s look at some statistics. There were 260 cars and 74 tracks released on RVZ in 2019. 3943 new accounts were created, and 0 new tools were published. On the Re-Volt I/O Discord server, 290557 messages were sent. That is an enormous amount. 200 casual lobbies were held, while the unofficial count was at 71. 115 submissions were made on the revolthaus subreddit. And now let’s look at what awards were given out related to these memes. The first one was the worst meme of the year - this one went to Alex with a meme, that’s pretty memorable. The Best Meme of The Year went to… Andor’s cool edit that teaches us about the true nature of skills. And finally… The Highest Quality Meme of the Year went to ducsekbence, with his meme about Stingox zapping!</em><br />
+<em>The other award I’d like to announce the results to is the Best Track of the Year award. Many tracks were made this year, we’ve had some real beauties. Tracks took us on some great adventures, and one of them did this the best according to people. And the track that won the vote was… Rooftops 1 by G_J and I Spy! And of course, credits go to Marv as well, who created Fiddlers on the Roof, which gave the base for this track!</em><br />
+[Shoutouts?]<br />
+<em>And with that, the awards are all given out. However, I’d still like to give a shoutout to all people who put work and effort into the community, all track makers, car makers, official hosts, unofficial hosts (especially to Whitedoom, who also hosts the 1v1 league, and hosts a lot of sessions, some of which are 3 hours long). Shoutouts to Huki for keeping the developement going! Shoutouts to Tubers for making memorable screams, and to our streamers, who make these screams possible to rewatch! And finally, shoutouts to everyone who has pressed the honk button… whether it was Santorini or not. Here comes the highlights reel of the year… only the best and my favourites made it here, and credits to Ohnej and Floxit as well for their streams, where I took quite a few clips from. Please visit their channel as well after watching this video!</em><br />
+[Highlights - Music?]</p>
+</body>
+            </html>
