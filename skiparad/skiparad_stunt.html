@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Skiing Paradise - Stunts Shows</title>
+</head>
+<body id="body">
+<div class="header" id="myHeader">
+  <table class="headertable" width="100%">
+    <tr>
+        <td class="headertd"><a class="headera" href="index.html">Home</a></td>
+        <td class="headertd"><a class="headera" href="map.html">Map</a></td>
+        <td class="headertd"><a class="headera" href="skiparad_stunt.html">Stunts Shows</a></td>
+        <td class="headertd"><a class="headera" href="gallery.html">Gallery</a></td>
+    </tr>
+  </table>
+</div> 
+<br /><h1 class="headertext" id="header1" >Stunts Shows</h1>
+<img src='skiparad_stunt.png' width='30%' class="center2"/>
+<p class="center">Become the best runner in our Stunts Events, and get on the leaderboard! Our Stunts Events have the same courses as the Racing ones, but you have to collect all the items throughout the Ski Course. The rules are the following:</p>
+<ul class="center">
+<li>You drive one of our <b>stock</b> RCs through Skiing Paradise. (recommended: Panga)</li>
+<li>You collect all the star-shaped items</li>
+<li>You use a camera to record it (get a free camera for that <a href="https://obsproject.com/" target="Blank">here</a>)</li>
+<li>When you finish, you need to send us the recording, so that we can time it, and verify that you weren't cheating. If the run is legal, your name will be on the leaderboard! Send a link of the recording to: @hajducsekb#3604 on Discord | <a href="https://twitter.com/hajducsekb" target="Blank">@hajducsekb</a> on Twitter | <a href="https://forum.re-volt.io/memberlist.php?mode=viewprofile&u=1512" target="Blank">hajducsekb</a> on The Re-Volt Hideout | hajducsekb@gmail.com</li>
+</ul>
+<p class="center" style="text-align: center; font-size: 24pt;"><a href="https://www.dropbox.com/s/1wu6k6tjjdlnwtv/skiparad_stunt.zip?dl=1">Get a ticket!</a></p>
+</br>
+<table width='100%' border='0'>
+    <tr width = "100%">
+         <td class="sessionlog" width="50%">
+            LEADERBOARD
+         </td>
+         <td class="sessionlog">
+            Updated: 2020/01/31 01:54 UTC
+        </td>
+     </tr>
+     <tr width = "100%">
+         <td class="sessionlog">
+            Pos
+         </td>
+         <td class="sessionlog">
+            Name
+        </td>
+        <td class="sessionlog">
+            Time
+        </td>
+        <td class="sessionlog">
+            Video
+        </td>
+        <td class="sessionlog">
+            Car 
+        </td>
+     </tr>
+     <tr width = "100%">
+         <td class="sessionlog">
+            1
+         </td>
+         <td class="sessionlog">
+            ducsekbence
+        </td>
+        <td class="sessionlog">
+            05:37.???
+        </td>
+        <td class="sessionlog">
+            Youtube*
+        </td>
+        <td class="sessionlog">
+            Pangayeca 
+        </td>
+     </tr>
+</table>
+</br>
+<p class="center">*Video proof will be added later.</p>
+</br>
+<div class="button" onclick="darkMode();" style="text-align:center;" id="darkswitcher">Dark Mode</div>
+<br /><br />
+ <script>
+window.onload = function() {
+    if (localStorage['style'] === 'black'){
+darkMode()
+}
+}
+function darkMode(){
+  var y =  document.body;
+  var b = document.getElementById("darkswitcher").innerHTML;
+  if (getComputedStyle(y).backgroundColor === "rgb(227, 226, 226)") {
+    y.style.backgroundColor = "#000000";
+    y.style.color = "white";
+    document.getElementById("darkswitcher").innerHTML = "Light Mode";
+    localStorage['style'] = 'black';
+  } else{
+    y.style.backgroundColor = "#E3E2E2";
+    y.style.color = "black";
+    document.getElementById("darkswitcher").innerHTML = "Dark Mode";
+    localStorage['style'] = 'white';
+  }
+}
+</script>
+
+</body></html>
