@@ -108,4 +108,9 @@ table.events td{
 }
 td.pickon{
     background: orange;
+    color: black;
+}
+td.pickoff{
+    background: lightgrey;
+    color: black;
 }
