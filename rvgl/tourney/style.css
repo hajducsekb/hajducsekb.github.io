@@ -1,0 +1,111 @@
+body{
+    background: rgb(46,56,92);
+    background: linear-gradient(180deg, rgba(46,56,92,1) 0%, rgba(68,109,175,1) 100%);
+    color: white;
+}
+.header{
+  padding: 10;
+  text-align: center;
+  background-image: url('headerbg.png');
+  color: white;
+  font-size: 50px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+ li {
+  float: left;
+  margin: 0 auto;
+  display: inline-block; 
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 10px 25px;
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+    background: rgb(46,56,92);
+}
+table.normal{
+ 
+    background-color: rgba(0,0,0,0.5);
+}
+table.normal th{
+    text-decoration: bold;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.3);
+}
+table.normal td{
+    padding: 15px 25px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    background-color: rgba(0,0,0,0.5);
+    margin: 10;
+}
+.description{
+    margin: 10px 20%;
+  padding: 10px 10%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 20px;
+}
+a.eventlink{
+  display: block;
+  text-decoration: none;
+  color: white;
+
+}
+a.eventlink:hover{
+    background: rgb(46,56,92);
+}
+.inlineTable {
+    display: inline-block;
+    vertical-align: top;
+    }
+a.textlink{
+  text-decoration: none;
+  color:  #b05dff;
+
+}
+a.textlink:hover{
+    color: grey;
+}
+table.events{
+     background-color: rgba(0,0,0,0.5);
+     width: 75%;
+     border: 1px solid white;
+     border-collapse: collapse;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+table.events th{
+    text-decoration: bold;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+table.events td{
+    padding: 5px 15px;
+    border: 1px solid white;
+}
+td.pickon{
+    background: orange;
+}
