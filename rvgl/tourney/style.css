@@ -115,3 +115,7 @@ td.pickoff{
     background: lightgrey;
     color: black;
 }
+td.regopen{
+    background: lightgreen;
+    color: black;
+}
