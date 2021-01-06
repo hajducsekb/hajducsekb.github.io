@@ -31,6 +31,8 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 | 2021/01/24 |        | [TGO – Frigid Peaks](http://revoltzone.net/tracks/48824/TGO%20-%20Frigid%20Peaks)                                         | 18   |
 | 2021/01/24 |        | [Toy World Winter](http://revoltzone.net/tracks/26337/Toy%20World%20-%20Winter)\*\*                                       | 11   |
 
+### All 3 sessions will be hosted by duc (IP: `hb.rv.gl`)
+
 \*SBX Alpine is fully functional, Alex just wants to make slight modifications. I've uploaded the Christmas Championship version of the track to Mega so that it can be downloaded before the 3rd pack of the tournament is released.<br>
 \*\*Toy World Winter will receive slight modifications, namely certain objects will be removed (at least the wobbly cones), so that it will use less network traffic. The track will have a new folder name, so that it won't collide with the original version.<br>
 \*\*\* Skiing Paradise will also be modified a bit, but it shouldn't affect any optimal lines. You can still practice the track on the main route, the issue that exists is on a part of the track where you won't race naturally.
