@@ -46,6 +46,6 @@ To sign up, send a dm to either `hajducsekb#3604` or `Frosttbitten#9596` on Disc
 The sessions will be uploaded to the [RVGL Session Parser](https://online.re-volt.io/sessions/results.php), so the points given out will be 1 point per position. The sessionlogs at the end of the event will be merged, and uploaded seperately, this will decide the results of the tournament.
 
 ## Downloads:
-- [Week 1 Trackpack]()
-- [Week 2 Trackpack]()
-- [Week 3 Trackpack]()
+- [Week 1 Trackpack](https://mega.nz/file/goQC0JLI#jKINRbNRzSuMZGZOGsFnMzY9S3my9ToGydoTA69a9AI)
+- Week 2 Trackpack
+- Week 3 Trackpack
