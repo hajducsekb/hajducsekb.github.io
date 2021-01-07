@@ -1,8 +1,3 @@
----
-title:  "2021 Toyeca Winter Cup"
----
-
-
 ![Image of Toyecas](screen1.png)
 
 # Announcing 2021 Toyeca Winter Cup (TWC)!
@@ -30,7 +25,7 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 | 2021/01/24 | 19 UTC | [Aspenside](http://revoltzone.net/tracks/57202/Aspenside)                                                                 | 20   |
 | 2021/01/24 |        | [Christmas Snow Globe](http://revoltzone.net/tracks/3786/Christmas%20Snow%20Globe)                                        | 19   |
 | 2021/01/24 |        | [Rally ZX SS 2](http://revoltzone.net/tracks/9316/Rally%20ZX%20SS%202)                                                    | 11   |
-| 2021/01/24 |        | SBX Alpine (Unreleased)\*                                                                                                 | 13   |
+| 2021/01/24 |        | [SBX Alpine (Unreleased)](https://mega.nz/file/UoBkEL7C#k9BqxRd0Sh-_CFOD7IlryEaT5lNZQ8xRCCV7YztK2ZY)\*                                                                                                 | 13   |
 | 2021/01/24 |        | [Snowland 1](http://revoltzone.net/tracks/35928/Snowland%201)                                                             | 13   |
 | 2021/01/24 |        | [Snowy River](http://revoltzone.net/tracks/4060/Snowy%20River)                                                            | 13   |
 | 2021/01/24 |        | [TGO – Frigid Peaks](http://revoltzone.net/tracks/48824/TGO%20-%20Frigid%20Peaks)                                         | 18   |
