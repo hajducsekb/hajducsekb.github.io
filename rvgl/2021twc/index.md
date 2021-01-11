@@ -4,6 +4,10 @@
 
 We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series will consist of 22 races, split into 3 racing days (3 consecutive Sundays). All races will be around 8 minutes long, and will be raced on snowy/winter themed tracks, as the title suggests. We will be racing Toyeca (again, title!).
 
+## Results
+
+- [Week 1](https://online.re-volt.io/sessions/results.php?file=main/session_2021-01-10_20-00-00.csv)
+
 ## Schedule
 
 | DATE       | TIME   | TRACK                                                                                                                     | LAPS |
@@ -37,11 +41,12 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 \*\*Toy World Winter will receive slight modifications, namely certain objects will be removed (at least the wobbly cones), so that it will use less network traffic. The track will have a new folder name, so that it won't collide with the original version.<br>
 \*\*\* Skiing Paradise will also be modified a bit, but it shouldn't affect any optimal lines. You can still practice the track on the main route, the issue that exists is on a part of the track where you won't race naturally.
 
-*Note: I don't know if the song on Christmas Special Stage is copyrighted, so if you want to stream/record with music enabled, you might need to remove `levels/christmastest/song.mp3`.*
+*Note: I don't know if the song on Christmas Special Stage is copyrighted, so if you want to stream/record with music enabled, you might need to remove `levels/christmastest/song.mp3`.*<br>
+*Week 2 Note: Same as the above regarding PR: Caves, Tetris Festival and The Great Silence. Their respective paths: `levels/winterwest/custom/music.ogg`, `levels/tetrisfest/custom/tetrisfest.ogg`, `levels/pr_caves/pr_caves.mp3`*
 
 ## Signing Up
 
-To sign up, send a dm to either `hajducsekb#3604` or `Frosttbitten#9596` on Discord, or send a message to `@hajducsekb` on Telegram. You can sign up until 2021/01/10 18:30 UTC to take part in the tourney. You can still sign up after the first and second race days, however, you'll obviously be at a disadvantage in terms of points.
+To sign up, send a dm to either `hajducsekb#3604` or `Frosttbitten#9596` on Discord, or send a message to `@hajducsekb` on Telegram. You can still sign up after the first and second race days, however, you'll obviously be at a disadvantage in terms of points. It turns out that we also got 16 people to sign up, so you can only sign up as a reserve.
 
 ## Point System
 
@@ -49,5 +54,5 @@ The sessions will be uploaded to the [RVGL Session Parser](https://online.re-vol
 
 ## Downloads:
 - [Week 1 Trackpack](https://mega.nz/file/goQC0JLI#jKINRbNRzSuMZGZOGsFnMzY9S3my9ToGydoTA69a9AI)
-- Week 2 Trackpack
+- [Week 2 Trackpack - Mega](https://mega.nz/file/99pG0aQR#su9Gapkt6ysqRR7MGOdHD0C0c8mhldNVEhRvL0f7t9M) - [hajduc.com](https://hajduc.com/downloads/2021twc_week2.zip)
 - Week 3 Trackpack
