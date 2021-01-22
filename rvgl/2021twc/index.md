@@ -54,4 +54,4 @@ The sessions will be uploaded to the [RVGL Session Parser](https://online.re-vol
 ## Downloads:
 - [Week 1 Trackpack](https://mega.nz/file/goQC0JLI#jKINRbNRzSuMZGZOGsFnMzY9S3my9ToGydoTA69a9AI)
 - [Week 2 Trackpack - Mega](https://mega.nz/file/99pG0aQR#su9Gapkt6ysqRR7MGOdHD0C0c8mhldNVEhRvL0f7t9M) - [hajduc.com](https://hajduc.com/downloads/2021twc_week2.zip)
-- Week 3 Trackpack - [Mega]() - [hajduc.com](https://hajduc.com/downloads/2021twc_week3.zip)
+- Week 3 Trackpack - [Mega](https://mega.nz/file/UhBwVbBK#DLkpbmxu8zaMTgQqbPU2sLGFKVJ54eNtKA-5KVB4SK0) - [hajduc.com](https://hajduc.com/downloads/2021twc_week3.zip)
