@@ -33,7 +33,7 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 | 2021/01/24 |        | [Snowland 1](http://revoltzone.net/tracks/35928/Snowland%201)                                                             | 13   |
 | 2021/01/24 |        | [Snowy River](http://revoltzone.net/tracks/4060/Snowy%20River)                                                            | 13   |
 | 2021/01/24 |        | [TGO – Frigid Peaks](http://revoltzone.net/tracks/48824/TGO%20-%20Frigid%20Peaks)                                         | 18   |
-| 2021/01/24 |        | [Toy World Winter](http://revoltzone.net/tracks/26337/Toy%20World%20-%20Winter)\*                                         | 11   |
+| 2021/01/24 |        | [Toy World Winter](https://hajduc.com/downloads/twc_toyworldsn.zip)\*                                         | 11   |
 
 ### All 3 sessions will be hosted by duc (IP: `hb.rv.gl`)
 
