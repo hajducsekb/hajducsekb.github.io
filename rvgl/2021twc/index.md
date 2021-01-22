@@ -7,6 +7,8 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 ## Results
 
 - [Week 1](https://online.re-volt.io/sessions/results.php?file=main/session_2021-01-10_20-00-00.csv)
+- [Week 2](https://online.re-volt.io/sessions/results.php?file=main/session_2021-01-17_20-00-00.csv)
+- [Standings](https://online.re-volt.io/sessions/results.php?file=main/session_2021-01-10_20-00-00_merge12.csv)
 
 ## Schedule
 
