@@ -38,10 +38,12 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 ### All 3 sessions will be hosted by duc (IP: `hb.rv.gl`)
 
 \*These tracks have received modifications since this announcement. On the 12th of January, SBX Alpine was released on revoltzone, you should **redownload it** from there! As for Toy World Winter, the wobbly cones were removed for better network performance. **Make sure to redownload** the track from either the new link, or as part of the Week 3 trackpack!
+
 \*\*\* Skiing Paradise will also be modified a bit, but it shouldn't affect any optimal lines. You can still practice the track on the main route, the issue that exists is on a part of the track where you won't race naturally.
 
 *Note: I don't know if the song on Christmas Special Stage is copyrighted, so if you want to stream/record with music enabled, you might need to remove `levels/christmastest/song.mp3`.*<br>
-*Week 2 Note: Same as the above regarding PR: Caves, Tetris Festival and The Great Silence. Their respective paths: `levels/winterwest/custom/music.ogg`, `levels/tetrisfest/custom/tetrisfest.ogg`, `levels/pr_caves/pr_caves.mp3`*
+*Week 2 Note: Same as the above regarding PR: Caves, Tetris Festival and The Great Silence. Their respective paths: `levels/winterwest/custom/music.ogg`, `levels/tetrisfest/custom/tetrisfest.ogg`, `levels/pr_caves/pr_caves.mp3`*<br>
+*Week 3 Note: I still can't keep track of the copyright in the music, please keep this in mind if you turn on in-game music and try to stream/record.*
 
 ## Signing Up
 
