@@ -29,16 +29,15 @@ We (duc and Frosttbitten) are announcing the 2021 Toyeca Winter Cup! The series 
 | 2021/01/24 | 19 UTC | [Aspenside](http://revoltzone.net/tracks/57202/Aspenside)                                                                 | 20   |
 | 2021/01/24 |        | [Christmas Snow Globe](http://revoltzone.net/tracks/3786/Christmas%20Snow%20Globe)                                        | 19   |
 | 2021/01/24 |        | [Rally ZX SS 2](http://revoltzone.net/tracks/9316/Rally%20ZX%20SS%202)                                                    | 11   |
-| 2021/01/24 |        | [SBX Alpine (Unreleased)](https://mega.nz/file/UoBkEL7C#k9BqxRd0Sh-_CFOD7IlryEaT5lNZQ8xRCCV7YztK2ZY)\*                                                                                                 | 13   |
+| 2021/01/24 |        | [SBX Alpine](http://revoltzone.net/tracks/57730/SBX%20Alpine)\*                    | 13   |
 | 2021/01/24 |        | [Snowland 1](http://revoltzone.net/tracks/35928/Snowland%201)                                                             | 13   |
 | 2021/01/24 |        | [Snowy River](http://revoltzone.net/tracks/4060/Snowy%20River)                                                            | 13   |
 | 2021/01/24 |        | [TGO – Frigid Peaks](http://revoltzone.net/tracks/48824/TGO%20-%20Frigid%20Peaks)                                         | 18   |
-| 2021/01/24 |        | [Toy World Winter](http://revoltzone.net/tracks/26337/Toy%20World%20-%20Winter)\*\*                                       | 11   |
+| 2021/01/24 |        | [Toy World Winter](http://revoltzone.net/tracks/26337/Toy%20World%20-%20Winter)\*                                         | 11   |
 
 ### All 3 sessions will be hosted by duc (IP: `hb.rv.gl`)
 
-\*SBX Alpine is fully functional, Alex just wants to make slight modifications. I've uploaded the Christmas Championship version of the track to Mega so that it can be downloaded before the 3rd pack of the tournament is released.<br>
-\*\*Toy World Winter will receive slight modifications, namely certain objects will be removed (at least the wobbly cones), so that it will use less network traffic. The track will have a new folder name, so that it won't collide with the original version.<br>
+\*These tracks have received modifications since this announcement. On the 12th of January, SBX Alpine was released on revoltzone, you should **redownload it** from there! As for Toy World Winter, the wobbly cones were removed for better network performance. **Make sure to redownload** the track from either the new link, or as part of the Week 3 trackpack!
 \*\*\* Skiing Paradise will also be modified a bit, but it shouldn't affect any optimal lines. You can still practice the track on the main route, the issue that exists is on a part of the track where you won't race naturally.
 
 *Note: I don't know if the song on Christmas Special Stage is copyrighted, so if you want to stream/record with music enabled, you might need to remove `levels/christmastest/song.mp3`.*<br>
@@ -55,4 +54,4 @@ The sessions will be uploaded to the [RVGL Session Parser](https://online.re-vol
 ## Downloads:
 - [Week 1 Trackpack](https://mega.nz/file/goQC0JLI#jKINRbNRzSuMZGZOGsFnMzY9S3my9ToGydoTA69a9AI)
 - [Week 2 Trackpack - Mega](https://mega.nz/file/99pG0aQR#su9Gapkt6ysqRR7MGOdHD0C0c8mhldNVEhRvL0f7t9M) - [hajduc.com](https://hajduc.com/downloads/2021twc_week2.zip)
-- Week 3 Trackpack
+- Week 3 Trackpack - [Mega]() - [hajduc.com](https://hajduc.com/downloads/2021twc_week3.zip)
